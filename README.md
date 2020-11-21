@@ -8,3 +8,10 @@ source venv/bin/activate
 python3 -m pip install --upgrade pip
 sudo pip3 install autopep8 scrapy
 ```
+
+## Scraping
+
+```bash
+cd scraper
+scrapy crawl cia
+```
